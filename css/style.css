@@ -30,6 +30,11 @@ html {
 
 }
 
+#section-studio {
+  padding-top: 5px;
+}
+
+
 
 .vimeo-wrapper {
    position: fixed;
@@ -1279,14 +1284,14 @@ Topbar
   width: 100%;
   z-index: 199 !important;
   height: 50px;
-  line-height: 80px;
+  line-height: 62px;
 }
 #header .container {
   position: relative;
 }
 #header .header-inner,
 #header #header-wrap {
-  height: 80px;
+  height: 62px;
   background-color: #fff;
   /*         backface-visibility: hidden;
   -webkit-backface-visibility: hidden; */
