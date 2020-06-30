@@ -26,11 +26,26 @@
                     <!--Logo-->
                     <div id="logo" >
                     	
-                    	<img href="index.html" src="images/bordnegro.png" width="60" height="60" >
+                    	<img href="index.html" src="images/bordnegro.png" class="boxy" width="60" height="60" >
+                    	
+                    	<div id="logo"> 
+
+
+                    		<a href="index.html">
+                    			<span class="logo-default">
+                    				<img src="images/logoblack.svg" alt="*" class="boxy" width="200" height="60">
+                    			</span>
+                    			<span class="logo-dark">
+                    				<img src="images/logo.svg" alt="*" class="boxy" width="200" height="60">
+                    			</span>
+                    		</a>
+
+                    	</div>
                       	
                             
                         
                     </div>
+
 
 
                     <!--End: Logo-->
@@ -245,22 +260,13 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <h2 class="m-b-10">Envíanos tu Demo o Consulta</h2>
-                                
                             </div>
 
-                            <form class="widget-contact-form" novalidate action="include/contact-form.php" role="form" method="post" style="color:black;">
+                            <form class="widget-contact-form" novalidate action="include/contact-form.php" role="form" method="post"
+                            action="https://formspree.io/xrgyajqn">
+                            
                             <div class="row">
-                                <div class="form-group col-md-6">
-                                    
-                                    <input type="text" aria-required="true" name="widget-contact-form-name" class="form-control required name" placeholder="Ingresa tu nombre">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    
-                                    <input type="email" aria-required="true" required name="widget-contact-form-email" class="form-control required email" placeholder="Ingresa tu correo">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6 form-group">
+                                <div class="col-lg-6 form-group">
                                     
                                     <input type="text" class="form-control required" name="widget-contact-form-phone" placeholder="Ingresa tu teléfono" aria-required="true">
                                 </div>
@@ -310,55 +316,9 @@
     <script src="plugins/rateit/jquery.rateit.min.js"></script>
     <link rel="stylesheet" href="plugins/rateit/rateit.css">
     </script>
-    <script type="text/javascript">
-        //#rateit6
-        $("#rateit6").bind('rated', function (event, value) {
-            $('#value6').text('You\'ve rated it: ' + value);
-        });
-        $("#rateit6").bind('reset', function () {
-            $('#value6').text('Rating reset');
-        });
-        $("#rateit6").bind('over', function (event, value) {
-            $('#hover6').text('Hovering over: ' + value);
-        });
-        //#rateit7
-        $(function () {
-            $('#rateit7').rateit({
-                max: 15,
-                step: 2,
-                backingfld: '#backing7'
-            });
-        });
-        //AJAX Example
-        //we bind only to the rateit controls within the products div
-        $('#products .rateit').bind('rated reset', function (e) {
-            var ri = $(this);
-            //if the use pressed reset, it will get value: 0 (to be compatible with the HTML range control), we could check if e.type == 'reset', and then set the value to  null .
-            var value = ri.rateit('value');
-            var productID = ri.data(
-                'productid'
-            ); // if the product id was in some hidden field: ri.closest('li').find('input[name="productid"]').val()
-            //maybe we want to disable voting?
-            ri.rateit('readonly', true);
-            $.ajax({
-                // url: 'rateit.php', //your server side script
-                data: {
-                    id: productID,
-                    value: value
-                },
-                //type: 'POST',
-                complete: function (data) {
-                    INSPIRO.elements.notification("You have rated Product " + productID + " with " +
-                        value + " stars. Thank you!", "success")
-                },
-                /*  error: function (jxhr, msg, err) {
-                    INSPIRO.elements.notification(msg, "warning");
-                }  */
-            });
-        });
-    </script>
+    
 
-    <script> document.getElementById('myvideo').play();  </script>
+    
 </body>
 
 </html>
