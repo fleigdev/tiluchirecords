@@ -77,7 +77,7 @@ html {
 }
 
 .quicksand {
-  font-family: "Quicksand";
+  font-family: "Yanone Kaffeesatz";
 }
 
 .smallpad {
@@ -3925,7 +3925,7 @@ body {
   line-height: 1.65714286em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Quicksand', cursive;
+  font-family: 'Yanone Kaffesatz', cursive;
   color: #484848;
 }
 
@@ -3941,7 +3941,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Yanone Kaffeesatz', cursive;
   color: #1f1f1f;
   margin: 0;
   letter-spacing: 0.5px;
@@ -3979,7 +3979,7 @@ h1:not(:last-child),
 
 h2,
 .h2 {
-  font-size: 4.5em;
+  font-size: 4em;
   line-height: 1.36363636em;
   font-weight: 500;
 }
@@ -4066,14 +4066,14 @@ h6:not(:last-child),
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-style: normal;
   font-weight: 400;
   text-transform: none;
   line-height: 1.7;
   letter-spacing: 0;
   color: #777777;
-  font-family: 'Quicksand', cursive;
+  font-family: 'Yanone Kaffeesatz', cursive;
 }
 
 ul.bullets {
@@ -12514,12 +12514,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .social-icons li a {
   float: left;
-  height: 32px;
-  width: 32px;
-  line-height: 32px;
-  font-size: 16px;
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
+  font-size: 35px;
   text-align: center;
-  margin: 0 4px 4px 0;
+  margin: 0 50px 4px 0;
   border-radius: 4px;
   border: 0;
   background: transparent;
