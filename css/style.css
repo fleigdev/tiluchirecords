@@ -4,8 +4,8 @@
 /* --------------------------------------------------------------- 
    Google Fonts
 -----------------------------------------------------------------*/
-/*@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800|Nunito:300,400,600,700,800");*/
-/*  Base */
+/*@import #e36e00 url("https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800|Nunito:300,400,600,700,800");*/
+/*  Base */ 
 
 
 /***********************************************************************
@@ -28,6 +28,10 @@ html {
 .custom-content {
     padding:0;
 
+}
+
+.tiluchicolor {
+  color: #e36e00;
 }
 
 .instagramcolor {
@@ -849,7 +853,7 @@ section.dark,
 .grid-filter.gf-lines li:hover a:after, .grid-filter.gf-lines li.active a:after {
   width: 100%;
   left: 0%;
-  background-color: white;
+  background-color: #2250fc;
 }
 .grid-filter.gf-line-bottom {
   border-bottom: 2px solid #ebebeb;
@@ -1719,7 +1723,7 @@ Main Menu
 #mainMenu nav > ul > li.current > span, #mainMenu nav > ul > li:hover > a,
 #mainMenu nav > ul > li:hover > span, #mainMenu nav > ul > li:focus > a,
 #mainMenu nav > ul > li:focus > span {
-  color: #2250fc;
+  color: #e36e00;
 }
 #mainMenu nav > ul > li.dropdown:before {
   content: "\e930";
@@ -7509,7 +7513,7 @@ Scroll top
   top: 0;
   left: 0;
   z-index: 1;
-  background-color: #2250fc;
+  background-color: #e36e00;
   transform: scale(0);
   transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
   border-radius: 100px;
