@@ -30,6 +30,15 @@ html {
 
 }
 
+.instagramcolor {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.navright {
+  float:right;
+  margin-top: 6px;
+}
+
 .padleft {
     padding-left: 15px;
 }
@@ -840,7 +849,7 @@ section.dark,
 .grid-filter.gf-lines li:hover a:after, .grid-filter.gf-lines li.active a:after {
   width: 100%;
   left: 0%;
-  background-color: #2250fc;
+  background-color: white;
 }
 .grid-filter.gf-line-bottom {
   border-bottom: 2px solid #ebebeb;
@@ -1682,10 +1691,10 @@ Main Menu
 }
 #mainMenu nav > ul > li > a {
   position: relative;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Yanone Kaffeesatz', cursive;
   padding: 10px 12px;
   text-transform: uppercase;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: 600;
   letter-spacing: 0.6px;
   color: #000000;
@@ -12574,7 +12583,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .social-icons.social-icons-colored .social-instagram a,
 .social-icons.social-icons-colored-hover .social-instagram a:hover {
-  background-color: #e53d00;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
 }
 
 .social-icons.social-icons-colored .social-gplus a,
