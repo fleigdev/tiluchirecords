@@ -12588,11 +12588,17 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .social-icons.social-icons-colored .social-instagram a,
 .social-icons.social-icons-colored-hover .social-instagram a:hover {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+};
 }
 
 .social-icons.social-icons-colored .social-gplus a,
 .social-icons.social-icons-colored-hover .social-gplus a:hover {
   background-color: #d68400;
+}
+
+.social-icons.social-icons-colored .social-spotify a,
+.social-icons.social-icons-colored-hover .social-spotify a:hover {
+  background-color: #1DB954;
 }
 
 .social-icons.social-icons-colored .social-stumbleupon a,
